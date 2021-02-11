@@ -61,6 +61,8 @@ function _line(startx,starty,endx,endy) {
   canvas.stroke()
 }
 
+// test
+
 function _rec(x,y,w,h) {
   canvas.fillRect(x,y,w,h)
 }
