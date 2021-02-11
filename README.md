@@ -1,2 +1,5 @@
-# tools
-Little tools for quick and faster JavaScript developent.
+# JAVASCRIPT TOOLS
+```
+$ echo hello
+hello
+```
