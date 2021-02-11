@@ -4,12 +4,16 @@ A few tools to add CSS, find values, name generation, button assigning, and othe
 To add KOOLS to your website, add this to your index.html file:
 
 ```
-<script src = "https://cdn.jsdelivr.net/Kittyninja/koolz/main/lib.1.2.js"></script>
+// version 1
+<script src = "https://cdn.jsdelivr.net/Kittyninja/koolz/main/koolz.1.1.js"></script>
+
+// version 2
+<script src = "https://cdn.jsdelivr.net/Kittyninja/koolz/main/koolz.1.2.js"></script>
 ```
 
 Or download it and use this refrence:
 ```
-<script src = "/koolz-main/lib.1.1.js"></script>
+<script src = "/koolz-main/koolz.1.1.js"></script>
 ```
 
 # Documentation
