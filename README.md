@@ -8,7 +8,9 @@ To add KOOLS to your website, add this to your index.html file:
 ```
 
 Or download it and use this refrence:
-/
+```
+<script src = "/koolz-main/lib.1.1.js"></script>
+```
 
 # Documentation
 
