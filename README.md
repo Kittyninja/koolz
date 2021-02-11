@@ -70,14 +70,7 @@ _findIt(thing,array)
 
 console.log(_findIt("pagono",myArray))
 ```
-
-7. _findIt()
-
-```
-_findIt(thing,array)
-
-console.log(_findIt("pagono",myArray))
-```
+Finds something from an array and returns the value (works on objects as well).
 
 # Canvas Tools
 
