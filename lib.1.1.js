@@ -23,8 +23,8 @@ function _makeName(last, maleOrFemale) {
   }
 }
 
-function _makeColor(targetId,rgb1,rgb2,rgb3) {
-  document.getElementById(targetId).style.color = "rgb(" + rgb1 + "," + rgb2 + "," + rgb3 + ")"
+function _makeColor(targetId,r,g,b) {
+  _id(targetId).style.color = "rgb(" + r + "," + g + "," + b + ")"
 }
 
 function _makeButton(call,message) {
@@ -32,33 +32,35 @@ function _makeButton(call,message) {
 }
 
 function _findIt(thing, array) {
-for (let i = 0; i < array.length; i++) {
-    if (array[i] == thing) {
-        return i
-    }
-}
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] == thing) return i
+  }
 }
 
-function _findAll(value) {
-  return document.getElementsByClassName(value)
+function _findAll(classnm) {
+  return document.getElementsByClassName(classnm)
 }
 
 function _pushTo(array,index,item) {
-array.splice(index, 0, item);
+  array.splice(index, 0, item);
 }
 
 function _accessCanvas(id) {
-  canvas = document.getElementById(id).getContext("2d")
+  canvas = _id(id).getContext("2d")
 }
 
 function _id(id) {
-  return document.getElementById(id)
+  return document.querySelector(`#${id}`)
 }
 
 function _line(startx,starty,endx,endy) {
   canvas.moveTo(startx,starty)
   canvas.lineTo(endx,endy)
   canvas.stroke()
+}
+
+function _knn() {
+  document.body.innerHTML += '<meta http-equiv = "refresh" content = "2; url = https://kittyninja.net" />'
 }
 
 // test
