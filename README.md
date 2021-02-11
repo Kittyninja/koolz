@@ -41,5 +41,40 @@ To find all elements with classes that match your entered value, use _findAll().
 ```
 _makeName(includes last name, male/female)
 
-console.log(_makeName(true,male))
+console.log(_makeName(true,"male"))
 ```
+Returns a random name.
+
+5. _id
+
+```
+_id(id)
+
+const p = _id(p)
+```
+Quickly finds an ID.
+
+6. _findIt()
+
+```
+_findIt(thing,array)
+
+console.log(_findIt("pagono",myArray))
+```
+
+# Canvas Tools
+
+To access a canvas (**MUST BE FIRST**) use _accessCanvas(yourCanvasId).
+Then use the following tools.
+
+```
+rec(x,y,w,h)
+```
+Draws a rectangle at x, y, w width, and h height.
+
+```
+line(startx,starty,endx,endy)
+```
+Draws a line at startx and starty to endx and endy.
+```
+
