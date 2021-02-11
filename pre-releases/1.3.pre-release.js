@@ -65,6 +65,30 @@ function _knn(target) {
   document.body.innerHTML += '<meta http-equiv = "refresh" content = "2; url = target" />'
 }
 
+function _combinations(arr,removeBoth) {
+let array = []
+console.log(arr.length)
+for (var i = 0; i < arr.length; i++) {
+for (var j = 0; j < arr.length; j++) {
+  if (!(j === i)) {
+    if (arr[i]) {
+      if (arr[j]) {
+        if (removeBoth === true) {
+          if (!array.includes(arr[j] + " " + arr[i])) {
+             array.push(arr[i] + " " + arr[j])
+          }
+        } else {
+        array.push(arr[i] + " " + arr[j])
+      }
+    }
+    }
+  }
+}
+
+}
+return array
+}
+
 // test
 
 
