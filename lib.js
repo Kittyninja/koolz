@@ -47,7 +47,7 @@ function _pushTo(array,index,item) {
 array.splice(index, 0, item);
 }
 
-function accessCanvas(id) {
+function _accessCanvas(id) {
   canvas = document.getElementById(id).getContext("2d")
 }
 
