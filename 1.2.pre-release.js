@@ -74,4 +74,5 @@ function _rec(x,y,w,h) {
 function _background(one,two,three) {
 ctx.fillStyle = "rgb(" + one + "," + two + "," + three + ")";
 ctx.fillRect(0,0,canvas.width,canvas.height);
+ctx.fillStyle = "rgb(0,0,0)";
 }
