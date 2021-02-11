@@ -4,16 +4,12 @@ A few tools to add CSS, find values, name generation, button assigning, and othe
 To add KOOLS to your website, add this to your index.html file:
 
 ```
-// version 1
-<script src = "https://cdn.jsdelivr.net/Kittyninja/koolz/main/koolz.1.1.js"></script>
-
-// version 2
 <script src = "https://cdn.jsdelivr.net/Kittyninja/koolz/main/koolz.1.2.js"></script>
 ```
 
 Or download it and use this refrence:
 ```
-<script src = "/koolz-main/koolz.1.1.js"></script>
+<script src = "/koolz-main/koolz.1.2.js"></script>
 ```
 
 # Documentation
@@ -71,6 +67,21 @@ _findIt(thing,array)
 console.log(_findIt("pagono",myArray))
 ```
 Finds something from an array and returns the value (works on objects as well).
+
+7. _knn()
+
+```
+_knn(target, [random])
+```
+redirects the page to a url specified by the peramiter target (must be in quotes.  ex: "https://www.youtube.com/channel/UCZNqx3ZH2kSmM-KHjXqGrhg").
+can go to a random site by setting the optional peramiter random to TRUE.
+
+8. _random()
+
+```
+_random(minimum, maximum)
+```
+creates a random number between the minimum peramiter and the maximum peramiter
 
 # Canvas Tools
 
