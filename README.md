@@ -4,7 +4,7 @@ A few tools to add CSS, find values, name generation, button assigning, and othe
 To add KTOOLS to your website, add this to your index.html file:
 
 ```
-
+<script src = "<script src="https://cdn.jsdelivr.net/gh/Kittyninja/tools/lib.js"></script>"
 ```
 
 # Documentation
