@@ -70,6 +70,6 @@ function _rec(x,y,w,h) {
 }
 
 function _background(rgb1,rgb2,rgb3) {
-  canvas.fillStyle = rgb1 + "," + rgb2 + "," + rgb3;
+  canvas.fillStyle = "rgb(" + rgb1 + "," + rgb2 + "," + rgb3 + ")"
   canvas.fillRect(0, 0, canvas.width, canvas.height);
 }
