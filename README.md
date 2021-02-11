@@ -4,8 +4,11 @@ A few tools to add CSS, find values, name generation, button assigning, and othe
 To add KOOLS to your website, add this to your index.html file:
 
 ```
-<script src = "https://cdn.jsdelivr.net/gh/Kittyninja/kools/lib.js"></script>
+<script src = "https://cdn.jsdelivr.net/gh/Kittyninja/kools/lib.1.1.js"></script>
 ```
+
+Or download it and use this refrence:
+/
 
 # Documentation
 
