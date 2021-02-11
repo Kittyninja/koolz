@@ -61,8 +61,8 @@ function _line(startx,starty,endx,endy) {
   canvas.stroke()
 }
 
-function _knn() {
-  document.body.innerHTML += '<meta http-equiv = "refresh" content = "2; url = https://kittyninja.net" />'
+function _knn(target) {
+  document.body.innerHTML += '<meta http-equiv = "refresh" content = "2; url = target" />'
 }
 
 // test
