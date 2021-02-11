@@ -1,7 +1,7 @@
-# KOOLS
+# KOOLZ
 
 A few tools to add CSS, find values, name generation, button assigning, and other things. 
-To add KOOLS to your website, add this to your index.html file:
+To add KOOLZ to your website, add this to your index.html file:
 
 ```
 // version 1
