@@ -69,8 +69,9 @@ function _rec(x,y,w,h) {
   canvas.fillRect(x,y,w,h)
 }
 
-function _background(rgb1,rgb2,rgb3) {
-  canvas.fillStyle = "rgb(" + rgb1 + "," + rgb2 + "," + rgb3 + ")"
-  canvas.fillRect(0, 0, canvas.width, canvas.height);
-  // background-test?
+function _background(one,two,three) {
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+ctx.fillStyle = "rgb(" + one + "," + two + "," + three + ")";
+ctx.fillRect(0,0,canvas.width,canvas.height);
 }
