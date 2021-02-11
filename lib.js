@@ -60,3 +60,7 @@ function _line(startx,starty,endx,endy) {
   canvas.lineTo(endx,endy)
   canvas.stroke()
 }
+
+function _rec(x,y,w,h) {
+  canvas.fillRect(x,y,w,h)
+}
