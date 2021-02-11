@@ -71,6 +71,14 @@ _findIt(thing,array)
 console.log(_findIt("pagono",myArray))
 ```
 
+7. _findIt()
+
+```
+_findIt(thing,array)
+
+console.log(_findIt("pagono",myArray))
+```
+
 # Canvas Tools
 
 To access a canvas (**MUST BE FIRST**) use _accessCanvas(yourCanvasId).
@@ -85,5 +93,16 @@ Draws a rectangle at x, y, w width, and h height.
 line(startx,starty,endx,endy)
 ```
 Draws a line at startx and starty to endx and endy.
+
+```
+paint(rgb1,rgb2,rgb3)
+```
+Sets the fill to your given color.
+
+```
+oval(x,y,width,height)
+```
+Makes an oval (or circle if width and height are the same) at x and y with w width and h height.
+
 
 
