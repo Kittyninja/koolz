@@ -99,6 +99,33 @@ function _floor(value) {
 function _ceil(value) {
   return Math.ceil(value)
 }
+function _max(arr) {
+  return Math.max(...arr)
+}
+function _max(arr) {
+  return Math.max(...arr)
+}
+function _min(arr) {
+  return Math.min(...arr)
+}
+function _log(inp) {
+  console.log(inp)
+}
+let PI = Math.PI
+function _sort(kind,arr) {
+  if (kind === "number") {
+    return arr.sort((a,b) => a-b);
+  }
+  if (kind === "string") {
+    return arr.sort();
+  }
+}
+function _dupl(arr) {
+  return arr.filter((value,index) => data.indexOf(value) === index)
+}
+function _addCanvas(width,height,id) {
+  document.body.innerHTML += '<canvas id = ' + id + ' width = ' + width + ' height = ' + height+ '>'
+}
 
 // test
 
