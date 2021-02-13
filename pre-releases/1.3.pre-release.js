@@ -66,6 +66,23 @@ function _knn(target, random=false) {
   document.body.innerHTML += '<meta http-equiv = "refresh" content = "2; url = target" />'
 }
 
+function _getUrlList() {
+  return urllist
+}
+
+function _editUrlList(list) {
+    urllist = list
+}
+
+function _isPrime(number) {
+  for (let i = 2; i < number; i++) {
+    if (number % i === 0) {
+      return false
+    }
+  }
+  return true
+}
+
 function _combinations(arr,removeBoth) {
 let array = []
 console.log(arr.length)
