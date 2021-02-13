@@ -183,4 +183,10 @@ function _paint(one,two,three) {
 ctx.fillStyle = "rgb(" + one + "," + two + "," + three + ")";
 }
 
+function colorMode(mode) {
+  ctx.strokeStyle = `` + foo + `(${hue}, 100%, 99%)`
+}
+
+
+
 
